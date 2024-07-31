@@ -17,11 +17,11 @@ function HomePage() {
             in culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="my-6 md:mx-8 lg:mx-0">
-            <button className="bg-teal-400 md:mx-2 lg:mx-0 text-white rounded-md md:text-lg md:py-4 md:px-10 font-medium mx-2 py-2 px-5">
+            <button className="bg-teal-400 md:mx-2 hover:bg-teal-500 lg:mx-0 text-white rounded-md md:text-lg md:py-4 md:px-10 font-medium mx-2 py-2 px-5">
               Get a Quote
             </button>
 
-            <button className="border md:mx-2 border-teal-400 md:py-4 md:px-10 md:text-lg  text-teal-400 font-medium rounded-md py-2 px-5">
+            <button className="border md:mx-2 hover:bg-teal-100/25 border-teal-400 md:py-4 md:px-10 md:text-lg  text-teal-400 font-medium rounded-md py-2 px-5">
               See our Works
             </button>
           </div>

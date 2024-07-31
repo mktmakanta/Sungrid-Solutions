@@ -36,7 +36,10 @@ const ContactPage = () => {
 
   return (
     <>
-      <h1 className="text-white text-4xl font-bold">Contact Me</h1>
+      <div>
+        <h1 className="text-white text-4xl font-bold">Contact Me</h1>
+        <div className="w-32 h-1.5 bg-teal-400 mx-auto mt-2"></div>
+      </div>
       <form
         className=" text-teal-500 text-left p-8 pt-2 text-xl"
         onSubmit={handleSubmit}
@@ -68,7 +71,7 @@ const ContactPage = () => {
         <div className="my-4">
           <label className=" font-semibold ">Message:</label>
           <textarea
-            className="text-stone-700 py-4 px-2 w-full rounded-md"
+            className="text-stone-700 py-4 px-2 w-full rounded-md h-56"
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -76,7 +79,7 @@ const ContactPage = () => {
           ></textarea>
         </div>
         <button
-          className="bg-teal-400 text-white px-8 py-2 rounded-md"
+          className="bg-teal-400 hover:bg-teal-300  text-white px-8 py-2 rounded-md md:text-3xl md:px-12 md:py-3"
           type="submit"
         >
           Send
