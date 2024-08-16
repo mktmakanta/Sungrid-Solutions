@@ -3,7 +3,7 @@ function HomePage() {
     <>
       <section className="p-6 md:mt-4 lg:grid grid-cols-2">
         <div className="text-white lg:text-left lg:mt-5">
-          <h6 className="text-teal-400 font-medium mt-6 md:text-xl uppercase">
+          <h6 className="text-teal-300 font-medium mt-10 md:text-xl uppercase">
             Work with the best and the right personnel
           </h6>
           <h1 className="text-7xl md:text-8xl  my-8">

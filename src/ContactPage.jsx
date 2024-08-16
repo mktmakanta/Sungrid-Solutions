@@ -1,6 +1,7 @@
 // src/components/ContactForm.js
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Social from "./Social";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -36,18 +37,18 @@ const ContactPage = () => {
 
   return (
     <>
-      <div>
+      <div className="p-6">
         <h1 className="text-white text-4xl font-bold">Contact Me</h1>
-        <div className="w-32 h-1.5 bg-teal-400 mx-auto mt-2"></div>
+        <div className="w-20 h-1 bg-teal-400 mx-auto mt-2"></div>
       </div>
       <form
         className=" text-teal-500 text-left p-8 pt-2 text-xl"
         onSubmit={handleSubmit}
       >
-        <div className="my-4">
-          <label className=" font-semibold ">Name:</label>
+        <div className="">
+          <label className=" font-bold ">Name:</label>
           <input
-            className="text-stone-700 py-4 px-2 w-full rounded-md"
+            className="text-stone-800 py-3 mt-1 px-2 w-full rounded-sm focus:outline-none "
             type="text"
             name="name"
             placeholder="Your Name "
@@ -57,9 +58,9 @@ const ContactPage = () => {
           />
         </div>
         <div className="my-4">
-          <label className=" font-semibold ">Email:</label>
+          <label className=" font-bold ">Email:</label>
           <input
-            className="text-stone-700 py-4 px-2 w-full rounded-md"
+            className="text-stone-800 py-3 px-2 w-full mt-1 rounded-sm focus:outline-none"
             type="email"
             placeholder="Your Email "
             name="email"
@@ -69,9 +70,9 @@ const ContactPage = () => {
           />
         </div>
         <div className="my-4">
-          <label className=" font-semibold ">Message:</label>
+          <label className=" font-bold ">Message:</label>
           <textarea
-            className="text-stone-700 py-4 px-2 w-full rounded-md h-56"
+            className="text-stone-700 py-4 mt-1 px-2 w-full rounded-sm h-56 focus:outline-none"
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -79,12 +80,13 @@ const ContactPage = () => {
           ></textarea>
         </div>
         <button
-          className="bg-teal-400 hover:bg-teal-300  text-white px-8 py-2 rounded-md md:text-3xl md:px-12 md:py-3"
+          className="bg-teal-400 font-medium hover:bg-teal-300 text-2xl  text-white px-10 py-2 rounded-sm md:text-3xl md:px-12 md:py-3"
           type="submit"
         >
           Send
         </button>
       </form>
+      <Social />
     </>
   );
 };

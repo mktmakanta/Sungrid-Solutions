@@ -40,15 +40,15 @@ const FaqPage = () => {
   };
 
   return (
-    <div className="text-teal-400 p-6  px-8 space-y-3">
-      <div className="text-white my-6 ">
+    <div className="text-teal-400 p-10  px-8 space-y-3">
+      <div className="text-white ">
         <div>
-          <h2 className="text-3xl md:text-5xl my-4 font-semibold ">
+          <h2 className="text-3xl md:text-5xl my-2 font-semibold ">
             Frequently Asked Questions
           </h2>
-          <div className="w-96 h-1 bg-teal-400 mx-auto mt-2 mb-6"></div>
+          <div className="w-full h-1 bg-teal-400 mx-auto mt-2 mb-6 "></div>
         </div>
-        <p className="md:text-xl">
+        <p className="md:text-xl mb-12">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum qui optio
           tempor
         </p>
