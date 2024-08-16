@@ -1,7 +1,7 @@
 function HomePage() {
   return (
     <>
-      <section className="p-4 md:mt-4 lg:grid grid-cols-2">
+      <section className="p-6 md:mt-4 lg:grid grid-cols-2">
         <div className="text-white lg:text-left lg:mt-5">
           <h6 className="text-teal-400 font-medium mt-6 md:text-xl uppercase">
             Work with the best and the right personnel
@@ -27,11 +27,11 @@ function HomePage() {
           </div>
         </div>
         <div className="lg:relative overflow-clip lg:flex items-center justify-center">
-          <div className="p-4 lg:p-10 lg:rounded-lg  lg:absolute lg:h-full lg:w-full">
+          <div className="p-4 h-96  lg:p-10 lg:rounded-lg  lg:absolute lg:h-full lg:w-full">
             <img
               src="src/images/hero-section/mobile-one.jpg"
               alt=""
-              className="w-fit lg:rounded-lg"
+              className="w-fit origin-center lg:rounded-lg"
             />
           </div>
         </div>

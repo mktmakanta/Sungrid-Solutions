@@ -13,7 +13,7 @@ function TestimonialPage() {
           </p>
         </div>
         <div className="cards space-y-3  lg:flex  flex-wrap">
-          <div className=" card w-11/12 lg:w-1/2 mx-auto lg:mx-0 bg-white md:p-14  text-black rounded-lg p-6 py-12 ">
+          <div className=" card w-11/12 lg:w-1/2 mx-auto lg:mx-0 bg-white md:p-14 text-black rounded-lg p-6 py-12 ">
             <div className="h-16 w-16  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-two.jpg"
@@ -22,6 +22,7 @@ function TestimonialPage() {
               />
             </div>
             <p className="md:text-xl ">
+              {/* <img src="src/images/quotes.png" alt="" /> */}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               beatae ratione enim corporis, culpa, unde omnis sapiente alias
               delectus minus nisi nam cum consequuntur quidem nostrum sit quo
@@ -31,7 +32,7 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-teal-500">adipisicing</span>
             </h4>
           </div>
           <div className=" card w-11/12 lg:w-1/2 mx-auto bg-white md:p-14 text-black rounded-lg p-6 py-12 ">
