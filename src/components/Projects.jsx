@@ -1,4 +1,4 @@
-function RecentWorksPage() {
+function Projects() {
   return (
     <>
       <section className="text-black font-inter">
@@ -137,4 +137,4 @@ function RecentWorksPage() {
   );
 }
 
-export default RecentWorksPage;
+export default Projects;

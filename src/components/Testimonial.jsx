@@ -1,4 +1,4 @@
-function TestimonialPage() {
+function Testimonial() {
   return (
     <>
       <section className="text-black font-inter p-6 lg:px-20  md:mt-16">
@@ -146,4 +146,4 @@ function TestimonialPage() {
   );
 }
 
-export default TestimonialPage;
+export default Testimonial;

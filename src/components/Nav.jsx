@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Header = () => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="h-14 md:flex justify-between items-baseline w-full lg:px-10 shadow-lg shadow-neutral-200/50 md:shadow-none md:py-6 bg-white z-50 sticky top-0 ">
+      <div className="h-14 p-1 md:flex justify-between items-baseline w-full lg:px-10 shadow-lg shadow-neutral-200/50 md:shadow-none md:py-6 bg-white z-50 sticky top-0 ">
         <div className="">
           <div className="h-12 w-8 md:h-16 md:w-12 absolute md:top-2 md:left-7 lg:left-32 left-5">
             <svg
@@ -186,4 +186,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Nav;

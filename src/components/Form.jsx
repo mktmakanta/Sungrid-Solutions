@@ -1,9 +1,8 @@
 // src/components/ContactForm.js
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import Social from "./Social";
 
-const ContactPage = () => {
+const Form = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -88,9 +87,8 @@ const ContactPage = () => {
           Send
         </button>
       </form>
-      <Social />
     </>
   );
 };
 
-export default ContactPage;
+export default Form;

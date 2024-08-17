@@ -1,4 +1,4 @@
-function OurService() {
+function Service() {
   return (
     <>
       <section className=" md:mt-10 text-black p-10 lg:px-20 font-inter ">
@@ -75,4 +75,4 @@ function OurService() {
   );
 }
 
-export default OurService;
+export default Service;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FaqPage = () => {
+const Faq = () => {
   const [isOpen, setIsOpen] = useState(null);
 
   const faqData = [
@@ -71,4 +71,4 @@ const FaqPage = () => {
     </div>
   );
 };
-export default FaqPage;
+export default Faq;
