@@ -3,12 +3,12 @@ function RecentWorksPage() {
     <>
       <section className="text-black font-inter">
         <div className="p-6 pt-0 lg:px-40">
-          <h1 className="font-bold text-2xl md:text-5xl my-3">RECENT WORKS</h1>
+          <h1 className="font-bold text-2xl md:text-5xl my-2">RECENT WORKS</h1>
           <div className="h-1 w-20 bg-amber-600  mx-auto md:mb-10"></div>
           <h4 className="font-semibold text-2xl md:text-3xl md:leading-normal my-4 ">
             Our Recently Completed Projects.
           </h4>
-          <p className=" font-normal md:text-xl md:my-4 md:text-slate-300">
+          <p className=" font-light md:text-xl md:my-4 md:text-black">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
             eius eligendi suscipit odit rerum quidem temporibus est impedit
             cumque tempore?

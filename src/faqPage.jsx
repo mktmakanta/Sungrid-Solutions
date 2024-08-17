@@ -40,13 +40,13 @@ const FaqPage = () => {
   };
 
   return (
-    <div className="text-teal-400 p-10 md:mt-12 px-8 space-y-3 lg:px-52">
-      <div className="text-white  ">
+    <div className="text-amber-600 p-10 md:mt-12 px-8 space-y-3 lg:px-52 font-inter">
+      <div className="text-black  ">
         <div>
           <h2 className="text-3xl md:text-5xl my-2 font-semibold ">
             Frequently Asked Questions
           </h2>
-          <div className="w-full lg:w-1/2 h-1 bg-teal-400 mx-auto mt-2 mb-6 "></div>
+          <div className="w-full lg:w-1/2 h-1 bg-amber-600 mx-auto mt-2 mb-3 "></div>
         </div>
         <p className="md:text-xl mb-12">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum qui optio
@@ -57,7 +57,7 @@ const FaqPage = () => {
       {faqData.map((faq, index) => (
         <div className="text-left  " key={index}>
           <div
-            className="text-xl md:text-2xl flex p-1 md:p-2 justify-between mb-2 border-t-2 border-teal-400 border-spacing-3 bg-teal-400/15"
+            className="text-xl md:text-2xl flex p-1 md:p-2 justify-between mb-2 border-t-2 border-amber-600 border-spacing-3 bg-amber-600/10"
             onClick={() => handleToggle(index)}
           >
             {faq.question}{" "}

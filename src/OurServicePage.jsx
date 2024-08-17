@@ -13,7 +13,7 @@ function OurService() {
             elit. Cumque repellendus minima est.
           </h4>
         </div>
-        <div className="lg:flex flex-wrap lg:flex-nowrap mt-12">
+        <div className="lg:flex flex-wrap lg:flex-nowrap mt-12 lg:px-10">
           <div className="text-left mb-10 md:px-10 lg:w-1/2 lg:p-6 ">
             <div className="h-96 ">
               <img

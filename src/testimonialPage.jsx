@@ -1,19 +1,19 @@
 function TestimonialPage() {
   return (
     <>
-      <section className="text-white p-6 lg:px-20  md:mt-16">
+      <section className="text-black font-inter p-6 lg:px-20  md:mt-16">
         <div className="lg:px-40">
-          <h1 className="font-bold text-2xl md:text-4xl my-4">
+          <h1 className="font-bold text-2xl md:text-4xl my-3">
             WHAT CLIENTS SAY
           </h1>
-          <div className="h-1 w-20 md:w-28 bg-teal-400  mx-auto"></div>
-          <p className="text-slate-300 md:text-xl md:mb-8 my-4">
+          <div className="h-1 w-20 md:w-28 bg-amber-600  mx-auto"></div>
+          <p className="font-normal md:text-xl md:mb-8 my-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta
             aspernatur optio ducimus sunt ratione?
           </p>
         </div>
         <div className="cards space-y-3 md:space-y-8 lg:space-y-0 lg:flex flex-wrap lg:gap-2">
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-white md:p-14  text-black rounded-lg p-10 py-12 ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-slate-200 md:p-14  text-black rounded-lg p-10 py-12 ">
             <div className="h-20 w-20  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-two.jpg"
@@ -35,7 +35,7 @@ function TestimonialPage() {
               Lonsectetur <span className="text-teal-500">adipisicing</span>
             </h4>
           </div>
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-white md:p-14 text-black rounded-lg p-10 py-12  ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-slate-200 md:p-14 text-black rounded-lg p-10 py-12  ">
             <div className="h-20 w-20  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-two.jpg"
@@ -53,10 +53,10 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-amber-600">adipisicing</span>{" "}
             </h4>
           </div>
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-white md:p-14 text-black rounded-lg p-10 py-12 ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto  bg-slate-200 md:p-14 text-black rounded-lg p-10 py-12 ">
             <div className="h-20 w-20  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-two.jpg"
@@ -74,10 +74,10 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-amber-600">adipisicing</span>{" "}
             </h4>
           </div>
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-white md:p-14 text-black rounded-lg p-10 py-12 ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-slate-200 md:p-14 text-black rounded-lg p-10 py-12 ">
             <div className="h-20 w-20  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-two.jpg"
@@ -95,10 +95,10 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-amer-600">adipisicing</span>{" "}
             </h4>
           </div>
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-white  md:p-14 text-black rounded-lg p-10 py-12 ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-slate-200 md:p-14 text-black rounded-lg p-10 py-12 ">
             <div className="h-20 w-20  md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-three.jpg"
@@ -116,10 +116,10 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-amber-600">adipisicing</span>{" "}
             </h4>
           </div>
-          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-white  md:p-14 text-black rounded-lg p-10 py-12 ">
+          <div className=" card w-11/12 md:w-10/12 lg:w-96 mx-auto bg-slate-200  md:p-14 text-black rounded-lg p-10 py-12 ">
             <div className="h-20 w-20 md:h-24 md:w-24 rounded-full mx-auto mb-6 ">
               <img
                 src="src/images/hero-section/mobile-one.jpg"
@@ -137,7 +137,7 @@ function TestimonialPage() {
               Name of client
             </h2>
             <h4 className="md:text-xl">
-              Lonsectetur <span className="text-teal-500">adipisicing</span>{" "}
+              Lonsectetur <span className="text-amber-600">adipisicing</span>{" "}
             </h4>
           </div>
         </div>

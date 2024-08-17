@@ -9,9 +9,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="h-14 w-full lg:px-10 shadow-lg shadow-neutral-200/50 md:shadow-none md:py-6 bg-white z-50 sticky top-0 ">
+      <div className="h-14 md:flex justify-between items-baseline w-full lg:px-10 shadow-lg shadow-neutral-200/50 md:shadow-none md:py-6 bg-white z-50 sticky top-0 ">
         <div className="">
-          <div className="h-12 w-8 absolute left-5">
+          <div className="h-12 w-8 md:h-16 md:w-12 absolute md:top-2 md:left-7 lg:left-32 left-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -70,11 +70,7 @@ const Header = () => {
               </g>
             </svg>
           </div>
-          {/* <img
-            src="src/images/logo.png"
-            alt=""
-            className="h-12 w-8 absolute left-5"
-          /> */}
+          {/* mobile  */}
           <div className="absolute right-2">
             <button
               className=" md:hidden ml-auto mr-2 flex flex-col items-center justify-center w-10 h-10 space-y-1 bg-transparent border-none cursor-pointer"
@@ -158,28 +154,28 @@ const Header = () => {
             </nav>
           </div>
         </div>
-
-        <nav className="flex justify-end mx-4 lg:mx-8 self-center ">
-          <ul className="hidden md:flex items-center text-white space-x-8 font-semibold">
+        {/* tablet and large screens */}
+        <nav className="md:right-8 lg:right-16 md:top-7 absolute flex justify-end mx-4 lg:mx-8 self-center ">
+          <ul className="hidden md:flex items-center text-black space-x-8 font-semibold">
             <li>
-              <a href="#home" className="block  hover:text-gray-300">
+              <a href="#home" className="block  hover:text-amber-600">
                 Home
               </a>
             </li>
 
             <li>
-              <a href="#services" className="block  hover:text-gray-300">
+              <a href="#services" className="block  hover:text-amber-600">
                 Services
               </a>
             </li>
             <li>
-              <a href="#works" className="block  hover:text-gray-300">
+              <a href="#works" className="block  hover:text-amber-600">
                 Works
               </a>
             </li>
 
             <li>
-              <a href="#contact" className="block  hover:text-gray-300">
+              <a href="#contact" className="block hover:text-amber-600">
                 Contact
               </a>
             </li>
