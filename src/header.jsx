@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="h-14 w-full  shadow-sm md:shadow-none md:py-6 sticky top-0 shadow-teal-600">
+      <div className="h-14 w-full lg:px-10 shadow-sm md:shadow-none md:py-6  sticky top-0 shadow-teal-600">
         <div className="">
           <img
             src="src/images/logo.png"
@@ -100,8 +100,8 @@ const Header = () => {
           </div>
         </div>
 
-        <nav className="flex justify-end mx-4 self-center">
-          <ul className="hidden md:flex text-white space-x-8 font-semibold">
+        <nav className="flex justify-end mx-4 lg:mx-8 self-center ">
+          <ul className="hidden md:flex items-center text-white space-x-8 font-semibold">
             <li>
               <a href="#home" className="block  hover:text-gray-300">
                 Home

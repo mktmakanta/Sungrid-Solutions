@@ -40,7 +40,7 @@ const FaqPage = () => {
   };
 
   return (
-    <div className="text-teal-400 p-10  px-8 space-y-3">
+    <div className="text-teal-400 p-10 md:mt-12 px-8 space-y-3">
       <div className="text-white ">
         <div>
           <h2 className="text-3xl md:text-5xl my-2 font-semibold ">
