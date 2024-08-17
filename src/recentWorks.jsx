@@ -1,14 +1,14 @@
 function RecentWorksPage() {
   return (
     <>
-      <section className="text-white">
+      <section className="text-black font-inter">
         <div className="p-6 pt-0 lg:px-40">
-          <h1 className="font-bold text-2xl md:text-5xl my-4">RECENT WORKS</h1>
-          <div className="h-1 w-20 bg-teal-400  mx-auto md:mb-10"></div>
+          <h1 className="font-bold text-2xl md:text-5xl my-3">RECENT WORKS</h1>
+          <div className="h-1 w-20 bg-amber-600  mx-auto md:mb-10"></div>
           <h4 className="font-semibold text-2xl md:text-3xl md:leading-normal my-4 ">
             Our Recently Completed Projects.
           </h4>
-          <p className="md:text-xl md:my-4 md:text-slate-300">
+          <p className=" font-normal md:text-xl md:my-4 md:text-slate-300">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
             eius eligendi suscipit odit rerum quidem temporibus est impedit
             cumque tempore?
@@ -23,8 +23,8 @@ function RecentWorksPage() {
                   alt=""
                   className="h-full w-full"
                 />
-                <div className="absolute bottom-3 mx-4">
-                  <h2 className="font-semibold text-xl md:text-3xl border-l-4 border-teal-400 px-2 my-2 ">
+                <div className="absolute bottom-3 mx-4 text-white">
+                  <h2 className="font-semibold text-xl md:text-3xl border-l-4 border-amber-600 px-2 my-2 ">
                     Solar installation
                   </h2>
                   <p className="md:text-lg">
@@ -39,8 +39,8 @@ function RecentWorksPage() {
                   alt=""
                   className="h-full w-full"
                 />
-                <div className="absolute bottom-3 mx-4 ">
-                  <h2 className="font-semibold text-xl md:text-3xl border-l-4 border-teal-400 px-2 my-2 ">
+                <div className="absolute bottom-3 mx-4 text-white ">
+                  <h2 className="font-semibold text-xl md:text-3xl border-l-4 border-amber-600 px-2 my-2 ">
                     Solar installation
                   </h2>
                   <p className="md:text-lg">
