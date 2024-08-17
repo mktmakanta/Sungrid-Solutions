@@ -1,7 +1,7 @@
 function HomePage() {
   return (
     <>
-      <section className="relative p-6  md:mt-8 lg:pl-32 lg:mt-0 lg:pb-10 lg:grid grid-cols-2">
+      <section className="relative p-6  md:mt-8 lg:mt-16 lg:pl-32  lg:pb-10 lg:grid grid-cols-2">
         <div className="text-white lg:text-left lg:mt-6 md:space-y-8 lg:space-y-4">
           <h6 className="text-teal-300 font-medium lg:font-normal mt-10 md:text-xl uppercase">
             Work with the best and the right personnel

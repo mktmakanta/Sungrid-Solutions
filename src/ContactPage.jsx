@@ -37,14 +37,14 @@ const ContactPage = () => {
 
   return (
     <>
-      <div className="p-6 ">
+      <div className="p-6 lg:px-60">
         <h1 className="text-white text-4xl md:text-6xl font-bold">
           Contact Me
         </h1>
         <div className="w-20 md:w-28 h-1 bg-teal-400 mx-auto mt-2"></div>
       </div>
       <form
-        className=" text-teal-500 text-left p-8 pt-2 md:mt-10 text-xl"
+        className=" text-teal-500 text-left p-8 pt-2 md:mt-10 text-xl lg:px-52"
         onSubmit={handleSubmit}
       >
         <div className="">
