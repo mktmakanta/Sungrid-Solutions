@@ -45,8 +45,11 @@ function Hero() {
   };
 
   return (
-    <div className="wrapper w-full overflow-x-scroll " ref={scrollContain}>
-      <div className="cards flex">
+    <div
+      className="wrapper w-full overflow-x-scroll relative"
+      ref={scrollContain}
+    >
+      <div className="cards flex ">
         {heroData.map((hero, index) => (
           <div
             key={index}
@@ -61,12 +64,47 @@ function Hero() {
               <h1 className="text-blue-950 font-extrabold lg:text-7xl text-5xl">
                 {hero.heading}
               </h1>
-              <p className="text-white lg:w-2/3 pr-4 font-extralight md:font-normal">
+              <p className="text-white lg:w-2/3 pr-4 font-light md:font-normal">
                 {hero.description}
               </p>
             </div>
           </div>
         ))}
+      </div>
+      <div className="  absolute bottom-4 flex space-x-3 right-6">
+        <div
+          className={`h-7 w-7 rounded-full ${
+            currentImage === 0 ? "scale-150" : ""
+          }`}
+        >
+          <img
+            className="h-full w-full rounded-full shadow-xl shadow-white"
+            src={`src/images/${heroData[0].picture}.png`}
+            alt=""
+          />
+        </div>
+        <div
+          className={`h-7 w-7 rounded-full ${
+            currentImage === 1 ? "scale-150" : ""
+          }`}
+        >
+          <img
+            className="h-full w-full rounded-full shadow-xl shadow-white"
+            src={`src/images/${heroData[1].picture}.png`}
+            alt=""
+          />
+        </div>{" "}
+        <div
+          className={`h-7 w-7 rounded-full shadow-xl shadow-white ${
+            currentImage === 2 ? "scale-150" : ""
+          }`}
+        >
+          <img
+            className="h-full w-full rounded-full"
+            src={`src/images/${heroData[2].picture}.png`}
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );

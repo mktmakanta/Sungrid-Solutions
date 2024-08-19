@@ -9,15 +9,17 @@ const Nav = () => {
 
   return (
     <>
-      <div className="h-14 p-1 md:flex justify-between items-baseline w-full lg:px-10 shadow-lg shadow-neutral-200/50 md:shadow-none md:py-6 bg-white z-50 sticky top-0 ">
-        <div className="">
-          <div className="h-32 w-24 md:h-32 md:w-24 absolute md:top-2 md:left-7 lg:left-32 left-5">
+      <div className="hidden lg:block h-10 w-screen bg-green-600"></div>
+      <div className=" px-5 py-2 lg:px-32 md:flex justify-between items-center w-full sticky top-0 z-20 bg-white  ">
+        <div className=" flex justify-between items-center">
+          <div className=" w-32 ">
             <img src="src/icons/logo.svg" alt="" />
           </div>
+
           {/* mobile  */}
-          <div className="absolute right-2">
+          <div className=" ">
             <button
-              className=" md:hidden ml-auto mr-2 flex flex-col items-center justify-center w-10 h-10 space-y-1 bg-transparent border-none cursor-pointer"
+              className=" md:hidden flex flex-col items-center justify-center w-10 h-10 space-y-1 bg-transparent border border-slate-300 rounded-md  cursor-pointer"
               onClick={toggleMenu}
             >
               <span
@@ -39,11 +41,11 @@ const Nav = () => {
 
             {/* Mobile Menu */}
             <nav
-              className={`absolute top-12 right-0 w-48 bg-white border z-50  border-gray-300 h-screen shadow-lg transition-transform duration-300 ${
+              className={` top-20 right-0 w-1/2 absolute bg-white border z-50   h-screen  transition-transform duration-300 ${
                 isOpen ? "transform translate-x-0" : "hidden"
               }`}
             >
-              <ul className="p-4 md:hidden space-y-8 font-semibold">
+              <ul className="p-4 md:hidden text-center pt-12 space-y-8 font-semibold">
                 <li>
                   <a
                     href="#home"
@@ -98,11 +100,15 @@ const Nav = () => {
             </nav>
           </div>
         </div>
+
         {/* tablet and large screens */}
-        <nav className="md:right-8 lg:right-16 md:top-7 absolute flex justify-end mx-4 lg:mx-8 self-center ">
-          <ul className="hidden md:flex items-center text-black space-x-8 font-semibold">
+        <nav className="  ">
+          <ul className="hidden md:flex items-center text-black space-x-14 font-semibold">
             <li>
-              <a href="#home" className="block  hover:text-amber-600">
+              <a
+                href="#home"
+                className="block text-amber-600 hover:text-amber-600"
+              >
                 Home
               </a>
             </li>
