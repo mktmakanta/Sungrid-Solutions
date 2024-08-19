@@ -73,29 +73,29 @@ function Hero() {
       </div>
       <div className="  absolute bottom-4 flex space-x-3 right-6">
         <div
-          className={`h-7 w-7 rounded-full ${
+          className={`h-7 w-7 rounded-full shadow-xl shadow-white  border-2 border-white ${
             currentImage === 0 ? "scale-150" : ""
           }`}
         >
           <img
-            className="h-full w-full rounded-full shadow-xl shadow-white"
+            className="h-full w-full rounded-full "
             src={`src/images/${heroData[0].picture}.png`}
             alt=""
           />
         </div>
         <div
-          className={`h-7 w-7 rounded-full ${
+          className={`h-7 w-7 rounded-full  shadow-white border-2 border-white ${
             currentImage === 1 ? "scale-150" : ""
           }`}
         >
           <img
-            className="h-full w-full rounded-full shadow-xl shadow-white"
+            className="h-full w-full rounded-full shadow-xl"
             src={`src/images/${heroData[1].picture}.png`}
             alt=""
           />
         </div>{" "}
         <div
-          className={`h-7 w-7 rounded-full shadow-xl shadow-white ${
+          className={`h-7 w-7 rounded-full shadow-xl shadow-white border-2 border-white ${
             currentImage === 2 ? "scale-150" : ""
           }`}
         >
