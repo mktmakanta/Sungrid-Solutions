@@ -29,7 +29,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="w-10/12 mx-auto font-inter space-y-5 relative -top-16 divide-y-2 divide-slate-500/15">
+    <div className="w-10/12 mx-auto font-inter space-y-5 relative -top-14 divide-y-2 divide-slate-500/15">
       {stats.map((stat, index) => (
         <div key={index} className=" flex bg-white p-4 py-8">
           <div className="image h-12 w-12  p-2 bg-sky-500 mr-4">

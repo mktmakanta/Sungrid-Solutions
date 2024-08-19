@@ -2,9 +2,9 @@ import { useEffect, useState, useRef } from "react";
 
 const heroData = [
   {
-    heading: "SUNGRID SOLUTIONS",
+    heading: "SUNGRID ",
     description:
-      "Lorem ipsum dolor sit amet consectetuias quam molestias, gherhehehhg the ththehher urhhhfdhfhhdshdshhsdhhshshhfh fhh n feubrbeuewwe eeherbhehukuwef befewguefguefbnyggy wexuc rruiuigecycyw t",
+      "Lorem ipsum dolor sit amet consectetuias quam molestshshhfh fhh n feubrbeuewwe eeherbhehukuwef befewguefguefbnyggy wexuc rruiuigecycyw t",
     picture: "hero-one",
   },
   {
