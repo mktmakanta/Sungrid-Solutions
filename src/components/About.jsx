@@ -9,7 +9,7 @@ export default function About() {
         <img className="h-full" src="src/images/hero-three.png" alt="" />
       </div>
       <div className="px-4 text-center mt-8 ">
-        <h1 className="font-bold text-blue-900 text-2xl my-4">About Us</h1>
+        <h1 className="font-bold text-amber-600 text-2xl my-4">About Us</h1>
         <h2 className="text-3xl font-bold text-blue-900 ">
           5+ Years Experience In Solar & Renewable Energy Industry
         </h2>

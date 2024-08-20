@@ -71,7 +71,7 @@ function Hero() {
           </div>
         ))}
       </div>
-      <div className="  absolute bottom-4 flex space-x-3 right-6">
+      {/* <div className="  absolute bottom-4 flex space-x-3 right-6">
         <div
           className={`h-7 w-7 rounded-full shadow-xl shadow-white  border-2 border-white ${
             currentImage === 0 ? "scale-150" : ""
@@ -105,7 +105,7 @@ function Hero() {
             alt=""
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

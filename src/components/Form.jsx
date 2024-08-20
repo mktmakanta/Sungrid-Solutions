@@ -36,57 +36,68 @@ const Form = () => {
 
   return (
     <>
-      <div className="p-6 lg:px-60">
-        <h1 className="text-white text-4xl md:text-6xl font-bold">
-          Contact Me
+      <section className="p-4 py-10 font-inter">
+        <h1 className="font-bold text-xl text-amber-600 ">
+          Want to know more?
         </h1>
-        <div className="w-20 md:w-28 h-1 bg-teal-400 mx-auto mt-2"></div>
-      </div>
-      <form
-        className=" text-teal-500 text-left p-8 pt-2 md:mt-10 text-xl lg:px-52"
-        onSubmit={handleSubmit}
-      >
-        <div className="">
-          <label className=" font-bold md:text-3xl ">Name:</label>
-          <input
-            className="text-stone-800 py-3 mt-1 px-2 w-full rounded-sm focus:outline-none "
-            type="text"
-            name="name"
-            placeholder="Your Name "
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="my-4">
-          <label className=" font-bold md:text-3xl ">Email:</label>
-          <input
-            className="text-stone-800 py-3 px-2 w-full mt-1 rounded-sm focus:outline-none"
-            type="email"
-            placeholder="Your Email "
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="my-4">
-          <label className=" font-bold md:text-3xl">Message:</label>
-          <textarea
-            className="text-stone-700 py-4 mt-1 px-2 w-full rounded-sm h-56 focus:outline-none"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          ></textarea>
-        </div>
-        <button
-          className="bg-teal-400 font-medium hover:bg-teal-500 text-2xl  text-white px-10 py-2 rounded-sm md:text-3xl md:px-12 md:py-3"
-          type="submit"
+        <p className="text-neutral-400 my-4">
+          If there is anything you'd like to know more about our services, get
+          in touch and ask us. We're always happy to answer any questions. You
+          can can{" "}
+          <a className="text-amber-600 underline underline-offset-4" href="">
+            call us
+          </a>{" "}
+          or fill in the form
+        </p>
+
+        <form
+          className=" bg-neutral-100 p-4 rounded-md"
+          onSubmit={handleSubmit}
         >
-          Send
-        </button>
-      </form>
+          <div className=" flex flex-col">
+            <label className=" text-blue-900 font-bold text-lg  ">Name</label>
+            <input
+              className="focus:outline-1 outline-amber-400 p-2 mt-1 mb-4"
+              type="text"
+              name="name"
+              placeholder="Your Name "
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="flex flex-col">
+            <label className=" text-blue-900 font-bold text-lg   ">Email</label>
+            <input
+              className="p-2 mt-1 mb-4 focus:outline-1 outline-amber-400"
+              type="email"
+              placeholder="Your Email "
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className=" flex flex-col">
+            <label className=" text-blue-900 font-bold text-lg  ">
+              Message
+            </label>
+            <textarea
+              className="mt-1 p-2 focus:outline-1 outline-amber-400 h-36"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            ></textarea>
+          </div>
+          <button
+            className=" bg-amber-600 rounded-sm text-white font-extralight shadow-lg my-4 text-xl px-6 py-2"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
     </>
   );
 };

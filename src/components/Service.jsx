@@ -3,7 +3,7 @@ function Service() {
     <>
       <section className="  font-inter px-4 mt-20 ">
         <div className=" text-center space-y-3 mb-8">
-          <h1 className="font-bold text-blue-900 text-xl">OUR SERVICES</h1>
+          <h1 className="font-bold text-amber-600 text-xl">Our Services</h1>
           <h2 className="text-4xl font-bold text-blue-900">
             A comprehensive set of our services
           </h2>
@@ -29,14 +29,14 @@ function Service() {
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 Solar installation
               </h2>
-              <p className=" text-neutral-400">
+              <p className=" text-neutral-400 mb-6">
                 Lorem ipsum dolor, sit amet consectetur Dolores cum quo
                 praesentium esse,
               </p>
 
-              <button className="font-medium border-b-2 text-amber-600 border-amber-600 border-spacing-0 mt-6">
+              <a className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline">
                 View service
-              </button>
+              </a>
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
@@ -54,14 +54,14 @@ function Service() {
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 Electrical Installation
               </h2>
-              <p className=" text-neutral-400">
+              <p className=" text-neutral-400 mb-6">
                 Dolores cum quo praesentium esse, nihil minus adipisci iusto
                 ipsam, aliquid, velit nobis. Ea m
               </p>
 
-              <button className="font-medium border-b-2 text-amber-600 border-amber-600 border-spacing-0 mt-6 ">
+              <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline  ">
                 View service
-              </button>
+              </a>
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
@@ -79,14 +79,14 @@ function Service() {
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 General Works
               </h2>
-              <p className=" text-neutral-400">
+              <p className=" text-neutral-400 mb-6">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. iusto
                 ipsam, aliquid, velit nobis.
               </p>
 
-              <button className="font-medium border-b-2 text-amber-600 border-amber-600 border-spacing-0 mt-6 ">
+              <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline mt-6 ">
                 View service
-              </button>
+              </a>
             </div>
           </div>
         </div>
