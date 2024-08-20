@@ -57,7 +57,7 @@ const Form = () => {
           <div className=" flex flex-col">
             <label className=" text-blue-900 font-bold text-lg  ">Name</label>
             <input
-              className="focus:outline-1 outline-amber-400 p-2 mt-1 mb-4"
+              className="focus:outline-1 outline-amber-500 p-2 mt-1 mb-4"
               type="text"
               name="name"
               placeholder="Your Name "
@@ -69,7 +69,7 @@ const Form = () => {
           <div className="flex flex-col">
             <label className=" text-blue-900 font-bold text-lg   ">Email</label>
             <input
-              className="p-2 mt-1 mb-4 focus:outline-1 outline-amber-400"
+              className="p-2 mt-1 mb-4 focus:outline-1 outline-amber-500"
               type="email"
               placeholder="Your Email "
               name="email"
@@ -83,7 +83,7 @@ const Form = () => {
               Message
             </label>
             <textarea
-              className="mt-1 p-2 focus:outline-1 outline-amber-400 h-36"
+              className="mt-1 p-2 focus:outline-1 outline-amber-500 h-36"
               name="message"
               value={formData.message}
               onChange={handleChange}
