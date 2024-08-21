@@ -5,6 +5,7 @@ import LandingPage from "../components/LandingPage";
 import AboutRoute from "./AboutRoute";
 import ProjectsRoute from "./ProjectsRoute";
 import ServiceRoute from "./ServiceRoute";
+import ErrorRoute from "./ErrorRoute";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <div> page not found</div>,
+    element: <ErrorRoute />,
   },
 ]);
 

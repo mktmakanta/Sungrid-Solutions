@@ -44,7 +44,14 @@ const TeamData = [
 import React, { useState } from "react";
 
 export default function Team() {
-  const [showLinks, setShowLinks] = useState(0);
+  const [showLinks, setShowLinks] = useState(true);
+
+  const onEnter = () => {
+    setShowLinks(true);
+  };
+  const onLeave = () => {
+    setShowLinks(false);
+  };
 
   return (
     <section className="font-inter py-10 bg-amber-100/70 p-4">
@@ -62,20 +69,29 @@ export default function Team() {
             key={index}
             className="member w-72 mx-auto mb-4 rounded-lg bg-white"
           >
-            <div className="h-72 w-72  relative ">
-              <div className="absolute w-full h-full bg-blue-500 rounded-t-lg flex items-center justify-center">
-                <ul className="flex">
-                  <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
-                  <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
-                  <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
-                  <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
-                </ul>
-              </div>
-              <img
-                className="w-full h-full rounded-t-lg"
-                src={`src/images/${team.image}.png`}
-                alt=""
-              />
+            <div
+              className="h-72 w-72  relative  "
+              onMouseEnter={onEnter}
+              onMouseLeave={onLeave}
+            >
+              {showLinks ? (
+                <div
+                  className={`absolute w-full  h-full bg-blue-500 rounded-t-lg flex items-center justify-center`}
+                >
+                  <ul className="flex">
+                    <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
+                    <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
+                    <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
+                    <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
+                  </ul>
+                </div>
+              ) : (
+                <img
+                  className="w-full h-full rounded-t-lg"
+                  src={`src/images/${team.image}.png`}
+                  alt=""
+                />
+              )}
             </div>
             <div className="p-4">
               <h1 className="font-semibold text-2xl mt-2">{team.name}</h1>
