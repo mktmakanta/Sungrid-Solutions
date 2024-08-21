@@ -108,7 +108,7 @@ export default function Footer() {
             Registered (CAC). <span className="text-white">RC: 7166634</span>
           </div>
           <div className="text-white text-center font-light text-sm mt-6 ">
-            Designed by MIMTECH
+            Designed by MIM
           </div>
 
           {/* Social  */}

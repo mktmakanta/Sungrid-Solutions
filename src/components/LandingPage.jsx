@@ -8,6 +8,7 @@ import ChooseUs from "./ChooseUs.jsx";
 import Form from "./Form.jsx";
 import Footer from "./Footer.jsx";
 import Testimonial from "./Testimonial.jsx";
+import Team from "./Team.jsx";
 
 function LandingPage() {
   return (
@@ -21,6 +22,7 @@ function LandingPage() {
         <ChooseUs />
         <GetQuote />
         <Form />
+        <Team />
         <Testimonial />
         <Footer />
       </div>
