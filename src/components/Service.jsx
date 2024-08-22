@@ -10,7 +10,7 @@ function Service() {
         </div>
         <div className="cards space-y-5 lg:space-y-0 lg:flex lg:gap-10  lg:mt-16">
           <div className="card w-11/12 mx-auto shadow-lg border-b-4 border-amber-600 pb-4">
-            <div className="h-64 ">
+            <div className="h-64 flex place-content-center">
               <img
                 src="src/images/hero-one.png"
                 alt=""
@@ -19,7 +19,7 @@ function Service() {
             </div>
             <div className=" relative p-8 ">
               <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3 ">
-                <img src="src/icons/github.svg" alt="" />
+                <img className="h-16 w-16" src="src/icons/solar.svg" alt="" />
               </div>
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 Solar installation
@@ -30,12 +30,17 @@ function Service() {
               </p>
 
               <a className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline">
-                View service
+                View service{" "}
+                <img
+                  className="h-3 w-3 ml-2 inline"
+                  src="src/icons/link.svg"
+                  alt=""
+                />
               </a>
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
-            <div className="h-64 ">
+            <div className="h-64 flex place-content-center">
               <img
                 src="src/images/hero-three.png"
                 alt=""
@@ -43,8 +48,12 @@ function Service() {
               />
             </div>
             <div className=" relative p-8 ">
-              <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3 ">
-                <img src="src/icons/xtwitter.svg" alt="" />
+              <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3  ">
+                <img
+                  className="h-16 w-16"
+                  src="src/icons/electrical.svg"
+                  alt=""
+                />
               </div>
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 Electrical Installation
@@ -55,7 +64,12 @@ function Service() {
               </p>
 
               <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline  ">
-                View service
+                View service{" "}
+                <img
+                  className="h-3 w-3 ml-2 inline"
+                  src="src/icons/link.svg"
+                  alt=""
+                />
               </a>
             </div>
           </div>
@@ -68,8 +82,8 @@ function Service() {
               />
             </div>
             <div className=" relative p-8 ">
-              <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3 ">
-                <img src="src/icons/linkedin.svg" alt="" />
+              <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3 flex place-content-center">
+                <img className="h-16 w-16" src="src/icons/general.svg" alt="" />
               </div>
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 General Works
@@ -80,7 +94,12 @@ function Service() {
               </p>
 
               <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline mt-6 ">
-                View service
+                View service{" "}
+                <img
+                  className="h-3 w-3 ml-2 inline"
+                  src="src/icons/link.svg"
+                  alt=""
+                />
               </a>
             </div>
           </div>

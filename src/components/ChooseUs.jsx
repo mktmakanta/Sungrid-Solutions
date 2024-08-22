@@ -15,20 +15,28 @@ export default function ChooseUs() {
         </p>
         <div className="space-y-2 lg:space-y-3 font-bold mt-5">
           <div className="flex gap-3 items-center">
-            <div className="h-5 w-5 bg-amber-600 rounded-full"></div> Over 5
-            years of experience
+            <div className="h-5 w-5  rounded-full">
+              <img src="src/icons/checked.svg" alt="" />
+            </div>{" "}
+            Over 5 years of experience
           </div>
           <div className="flex gap-3 items-center">
-            <div className="h-5 w-5 bg-amber-600 rounded-full"></div> Guaranteed
-            work
+            <div className="h-5 w-5 rounded-full">
+              <img src="src/icons/checked.svg" alt="" />
+            </div>{" "}
+            Guaranteed work
           </div>
           <div className="flex gap-3 items-center">
-            <div className="h-5 w-5 bg-amber-600 rounded-full"></div> 40+
-            successfully executed projects
+            <div className="h-5 w-5  rounded-full">
+              <img src="src/icons/checked.svg" alt="" />
+            </div>{" "}
+            40+ successfully executed projects
           </div>
           <div className="flex gap-3 items-center">
-            <div className="h-5 w-5 bg-amber-600 rounded-full"></div> Free
-            consultation
+            <div className="h-5 w-5  rounded-full">
+              <img src="src/icons/checked.svg" alt="" />
+            </div>{" "}
+            Free consultation
           </div>
         </div>
       </div>

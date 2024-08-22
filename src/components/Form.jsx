@@ -46,7 +46,8 @@ const Form = () => {
             in touch and ask us. We're always happy to answer any questions. You
             can can{" "}
             <a className="text-amber-600 underline underline-offset-4" href="">
-              call us
+              call us{" "}
+              <img className="h-3 w-3 inline" src="src/icons/link.svg" alt="" />
             </a>{" "}
             or fill in the form
           </p>

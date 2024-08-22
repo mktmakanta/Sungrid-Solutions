@@ -10,6 +10,7 @@ import Footer from "./Footer.jsx";
 import Testimonial from "./Testimonial.jsx";
 import Team from "./Team.jsx";
 import Stats from "./Stats.jsx";
+import HomeWhatsapp from "./Home-whatsapp.jsx";
 
 function LandingPage() {
   return (
@@ -27,6 +28,7 @@ function LandingPage() {
         <Team />
         <Testimonial />
         <Footer />
+        <HomeWhatsapp />
       </div>
     </>
   );
