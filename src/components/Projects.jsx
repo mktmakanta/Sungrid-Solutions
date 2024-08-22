@@ -94,13 +94,18 @@ function Projects() {
             </div>
           </div>
           <button
-            className="absolute top-1/2 left-6 lg:left-44 w-10 h-10 lg:w-14 lg:h-14 rounded-full bg-white/50 animate-pulse"
+            className="absolute top-1/2 left-6 lg:left-44 w-10 h-10 lg:w-14 lg:h-14 rounded-full  animate-pulse"
             onClick={previousImage}
-          ></button>
+          >
+            {" "}
+            <img className="h-20 w-20" src="src/icons/previous.svg" alt="" />
+          </button>
           <button
-            className="absolute top-1/2 right-6 lg:right-44 w-10 h-10 lg:w-14 lg:h-14 rounded-full bg-white/50 animate-pulse"
+            className="absolute top-1/2 right-6 lg:right-44 w-10 h-10 lg:w-14 lg:h-14 rounded-full  animate-pulse"
             onClick={nextImage}
-          ></button>
+          >
+            <img className="h-20 w-20" src="src/icons/next.svg" alt="" />
+          </button>
         </div>
       </section>
     </>

@@ -8,7 +8,7 @@ const Nav = () => {
   };
 
   return (
-    <>
+    <main id="#Home">
       <div className="hidden lg:block h-10 w-screen bg-green-600"></div>
       <div className=" px-5 py-2 lg:px-32 md:flex justify-between items-center w-full sticky top-0 z-20 bg-white  ">
         <div className=" flex justify-between items-center">
@@ -41,7 +41,7 @@ const Nav = () => {
 
             {/* Mobile Menu */}
             <nav
-              className={` top-20 right-0 w-1/2 absolute bg-white border z-50   h-screen  transition-transform duration-300 ${
+              className={` top-16 right-0 w-1/2 absolute bg-white border z-50   h-screen  transition-transform duration-300 ${
                 isOpen ? "transform translate-x-0" : "hidden"
               }`}
             >
@@ -132,7 +132,7 @@ const Nav = () => {
           </ul>
         </nav>
       </div>
-    </>
+    </main>
   );
 };
 
