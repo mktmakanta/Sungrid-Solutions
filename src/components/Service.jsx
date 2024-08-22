@@ -1,19 +1,14 @@
 function Service() {
   return (
     <>
-      <section className="  font-inter px-4 mt-20 ">
+      <section className="  font-inter px-4 mt-20 lg:mt-32 lg:px-40">
         <div className=" text-center space-y-3 mb-8">
           <h1 className="font-bold text-amber-600 text-xl">Our Services</h1>
-          <h2 className="text-4xl font-bold text-blue-900">
+          <h2 className="text-4xl lg:text-5xl font-bold text-blue-900">
             A comprehensive set of our services
           </h2>
-          <h4 className="text-neutral-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Repellendus, vel. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Cumque repellendus minima est
-          </h4>
         </div>
-        <div className="cards space-y-5">
+        <div className="cards space-y-5 lg:space-y-0 lg:flex lg:gap-10  lg:mt-16">
           <div className="card w-11/12 mx-auto shadow-lg border-b-4 border-amber-600 pb-4">
             <div className="h-64 ">
               <img

@@ -9,6 +9,7 @@ import Form from "./Form.jsx";
 import Footer from "./Footer.jsx";
 import Testimonial from "./Testimonial.jsx";
 import Team from "./Team.jsx";
+import Stats from "./Stats.jsx";
 
 function LandingPage() {
   return (
@@ -16,6 +17,7 @@ function LandingPage() {
       <div className=" ">
         <Nav />
         <Hero />
+        <Stats />
         <About />
         <Service />
         <Projects />

@@ -3,7 +3,7 @@ import React from "react";
 export default function GetQuote() {
   return (
     <div className="h-80 bg-amber-600 font-inter flex flex-col justify-center items-center space-y-6">
-      <h1 className="text-3xl font-bold text-white text-center ">
+      <h1 className="text-3xl lg:text-4xl font-bold text-white text-center ">
         Ready to pull the trigger? <br /> Get a free quote today.
       </h1>
       <div className=" space-x-5">

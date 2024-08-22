@@ -3,14 +3,15 @@ import Stats from "./Stats";
 
 export default function About() {
   return (
-    <div className="font-inter px-4">
-      <Stats />
-      <div className="h-80">
+    <div className="font-inter px-4 lg:grid grid-cols-2 lg:px-0">
+      <div className="h-80 lg:h-full">
         <img className="h-full" src="src/images/hero-three.png" alt="" />
       </div>
-      <div className="px-4 text-center mt-8 ">
-        <h1 className="font-bold text-amber-600 text-xl my-4">About Us</h1>
-        <h2 className="text-3xl font-bold text-blue-900 ">
+      <div className="px-4 text-center lg:text-left lg:px-14 mt-8 ">
+        <h1 className="font-bold text-amber-600 text-xl my-4 lg:my-2">
+          About Us
+        </h1>
+        <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 ">
           5+ Years Experience In Solar & Renewable Energy Industry
         </h2>
         <p className="text-neutral-400 my-4">
@@ -21,7 +22,7 @@ export default function About() {
           adipisicing elit. A, voluptatibus!
         </p>
 
-        <button className="text-2xl border py-4 px-10 mt-8 border-black/45">
+        <button className="text-2xl border py-4 px-10 mt-8 bg-amber-600 text-white shadow-lg">
           Explore More
         </button>
       </div>

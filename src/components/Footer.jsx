@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className=" font-inter pt-8 text-white bg-gray-900 pb-3 ">
       <div className="  p-4 text-center py-12  bg-blue-900 ">
-        <h2 className=" font-thin text-2xl">
+        <h2 className=" font-thin text-2xl lg:text-4xl">
           For more information please email
         </h2>
         <div>
@@ -16,14 +16,14 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className=" py-4 px-10 font-light shadow-lg bg-amber-600 mt-6">
+            <button className=" py-4 px-10 font-light shadow-lg bg-amber-600 mt-6 lg:text-xl">
               Contact Us
             </button>
           </a>
         </div>
       </div>
-      <div className=" p-4 text-neutral-400">
-        <div className="  mt-10 ">
+      <div className=" p-4 text-neutral-400 lg:mt-20 lg:px-24 lg:grid grid-cols-2">
+        <div className="  mt-10 lg:mt-0 ">
           <h2 className="font-bold text-xl text-white mb-3">Contacts</h2>
           <div className="flex items-center my-3">
             <div className="w-5 h-5 bg-white mr-3 "></div>
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
         </div>
         {/* social  */}
-        <div className="text-white flex  gap-3 my-5 ">
+        <div className="text-white flex  gap-3 my-5 lg:self-end ">
           <svg
             className="h-10 w-10 p-2 rounded-full bg-white/20 fill-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -87,31 +87,38 @@ export default function Footer() {
           </svg>
         </div>
         <div className="py-3 ">
-          <h2 className="font-bold text-xl text-white mb-3">Quick Links</h2>
+          <h2 className="font-bold text-xl text-white mb-3 lg:mt-10">
+            Quick Links
+          </h2>
           <ul>
             <li>About Us </li>
             <li> Our Services</li>
             <li>Our Projects</li>
           </ul>
         </div>
-        <div className=" ">
-          <div className="brand ">
-            <img className="h-28 w-40 my-5" src="src/icons/logo.svg" alt="" />
-          </div>
-          <div className=" border-t-2 pt-7 border-slate-800">
+        <div className="brand lg:mt-8">
+          <img
+            className="h-28 w-40 lg:h-36 lg:w-48 my-5"
+            src="src/icons/logo.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className=" lg:text-center lg:px-24 items-end border-t-2  border-amber-600/20 text-neutral-400 lg:flex justify-between lg:mb-10 lg:pt-8">
+        <div className="lg:flex flex-col items-start px-4 lg:px-0 ">
+          {" "}
+          <div className="  pt-7">
             &copy; Copyright {year} ||
             <span className="text-white">
               Sungrid Solutions Nigeria Limited
             </span>
           </div>
-          <div className="my-3 border-b-2 pb-7 border-slate-800 ">
+          <div className="my-3 pb-7 lg:pb-0 ">
             Registered (CAC). <span className="text-white">RC: 7166634</span>
           </div>
-          <div className="text-white text-center font-light text-sm mt-6 ">
-            Designed by MIM
-          </div>
-
-          {/* Social  */}
+        </div>
+        <div className="text-white text-center font-light text-sm mt-6 mb-6 lg:mb-0 ">
+          Designed by MiM
         </div>
       </div>
     </div>

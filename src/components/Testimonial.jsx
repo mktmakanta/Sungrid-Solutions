@@ -27,19 +27,26 @@ const testimonialData = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elincidunt nobis eveniet voluptatibipsum dolorur. Lorem ipsum dolor sit.",
   },
+  {
+    image: "hero-two",
+    work: "Repairs and maintainance",
+    place: "Mr. Ben Company",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elincidunt nobis eveniet voluptatibipsum dolorur. Lorem ipsum dolor sit.",
+  },
 ];
 
 function Testimonial() {
   return (
     <>
-      <section className="p-4 bg-amber-100/70 font-inter">
+      <section className="p-4 bg-amber-100/70 font-inter lg:px-32">
         <h1 className="text-center text-amber-600 text-xl font-bold mt-6">
           Testimonials
         </h1>
-        <h2 className="text-3xl text-blue-900 text-center font-bold mt-4 mb-6">
+        <h2 className="text-3xl lg:text-4xl text-blue-900 text-center font-bold mt-4 mb-6">
           Find out what our clients say about us and our work!
         </h2>
-        <div className="testimonials ">
+        <div className="testimonials lg:grid grid-cols-3 gap-3 lg:my-14">
           {testimonialData.map((testimonial, index) => (
             <div
               key={index}

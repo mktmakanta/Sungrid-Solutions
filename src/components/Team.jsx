@@ -56,14 +56,17 @@ export default function Team() {
   return (
     <section className="font-inter py-10 bg-amber-100/70 p-4">
       <div className="text-center my-5">
-        <h1 className=" text-2xl font-bold text-amber-600"> Team</h1>
+        <h1 className=" text-2xl font-bold text-amber-600 lg:text-3xl">
+          {" "}
+          Team
+        </h1>
         <p className="text-neutral-400">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
           accusantium nihil consequuntur, magnam laboriosam itaque.
         </p>
       </div>
 
-      <div className="members ">
+      <div className="members lg:grid lg:grid-cols-4 lg:mt-16 lg:px-12">
         {TeamData.map((team, index) => (
           <div
             key={index}
@@ -81,7 +84,7 @@ export default function Team() {
                   className={`absolute w-full  h-full bg-blue-500 rounded-t-lg flex items-center justify-center `}
                 >
                   <ul className="flex">
-                    <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
+                    <li className="w-10 h-10 rounded-full bg-white/70 m-2 hover:bg-amber-500"></li>
                     <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
                     <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
                     <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
