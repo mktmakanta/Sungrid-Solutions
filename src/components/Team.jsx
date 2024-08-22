@@ -44,13 +44,13 @@ const TeamData = [
 import React, { useState } from "react";
 
 export default function Team() {
-  const [showLinks, setShowLinks] = useState(true);
+  const [showLinks, setShowLinks] = useState(null);
 
-  const onEnter = () => {
-    setShowLinks(true);
+  const onEnter = (index) => {
+    setShowLinks(index);
   };
   const onLeave = () => {
-    setShowLinks(false);
+    setShowLinks(null);
   };
 
   return (
@@ -67,16 +67,18 @@ export default function Team() {
         {TeamData.map((team, index) => (
           <div
             key={index}
-            className="member w-72 mx-auto mb-4 rounded-lg bg-white"
+            className="member w-80 mx-auto mb-4 rounded-lg bg-white"
           >
             <div
-              className="h-72 w-72  relative  "
-              onMouseEnter={onEnter}
+              className="h-80 w-80  relative "
+              onMouseEnter={() => {
+                onEnter(index);
+              }}
               onMouseLeave={onLeave}
             >
-              {showLinks ? (
+              {showLinks === index ? (
                 <div
-                  className={`absolute w-full  h-full bg-blue-500 rounded-t-lg flex items-center justify-center`}
+                  className={`absolute w-full  h-full bg-blue-500 rounded-t-lg flex items-center justify-center `}
                 >
                   <ul className="flex">
                     <li className="w-10 h-10 rounded-full bg-white/70 m-2"></li>
