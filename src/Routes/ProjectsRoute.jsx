@@ -6,7 +6,7 @@ import RouteIntro from "../components/RouteIntro";
 export default function ProjectsRoute() {
   return (
     <div>
-      <RouteIntro />
+      <RouteIntro value={"Projects"} />
       <Projects />
       <Footer />
     </div>

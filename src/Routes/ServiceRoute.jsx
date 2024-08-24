@@ -9,7 +9,7 @@ import RouteIntro from "../components/RouteIntro";
 export default function ServiceRoute() {
   return (
     <div>
-      <RouteIntro />
+      <RouteIntro value={"Service"} />
       <Service />
       <Projects />
       <GetQuote />

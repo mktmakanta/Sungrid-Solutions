@@ -8,7 +8,7 @@ import RouteIntro from "../components/RouteIntro";
 export default function AboutRoute() {
   return (
     <div>
-      <RouteIntro />
+      <RouteIntro value={"About"} />
       <Stats />
       <About />
       <Team />
