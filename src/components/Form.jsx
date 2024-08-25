@@ -41,7 +41,7 @@ const Form = () => {
           <h1 className="font-bold text-xl text-amber-600 ">
             Want to know more?
           </h1>
-          <p className="text-neutral-400 my-4">
+          <p className="text-neutral-400 my-4 lg:text-xl">
             If there is anything you'd like to know more about our services, get
             in touch and ask us. We're always happy to answer any questions. You
             can can{" "}

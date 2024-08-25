@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Service() {
   return (
     <>
@@ -29,14 +31,17 @@ function Service() {
                 praesentium esse,
               </p>
 
-              <a className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline">
+              <NavLink
+                to="/serviceroute"
+                className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline"
+              >
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
                   src="src/icons/link.svg"
                   alt=""
                 />
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
@@ -62,15 +67,17 @@ function Service() {
                 Dolores cum quo praesentium esse, nihil minus adipisci iusto
                 ipsam, aliquid, velit nobis. Ea m
               </p>
-
-              <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline  ">
+              <NavLink
+                to="/serviceroute"
+                className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline"
+              >
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
                   src="src/icons/link.svg"
                   alt=""
                 />
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
@@ -93,14 +100,17 @@ function Service() {
                 ipsam, aliquid, velit nobis.
               </p>
 
-              <a className="font-medium border-b-2 text-amber-600 underline-offset-2 underline mt-6 ">
+              <NavLink
+                to="/serviceroute"
+                className="font-medium border-b-2 text-amber-600 mt-6 underline-offset-2 underline"
+              >
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
                   src="src/icons/link.svg"
                   alt=""
                 />
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Stats from "./Stats";
+import { NavLink } from "react-router-dom";
 
 export default function About() {
   return (
@@ -22,9 +23,11 @@ export default function About() {
           adipisicing elit. A, voluptatibus!
         </p>
 
-        <button className="text-2xl border py-4 px-10 mt-8 bg-amber-600 text-white shadow-lg">
-          Explore More
-        </button>
+        <NavLink to="/aboutroute">
+          <button className="text-2xl border py-4 px-10 mt-8 bg-amber-600 text-white shadow-lg">
+            Explore More
+          </button>
+        </NavLink>
       </div>
     </div>
   );

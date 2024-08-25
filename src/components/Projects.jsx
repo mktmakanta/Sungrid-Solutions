@@ -55,7 +55,7 @@ function Projects() {
 
   return (
     <>
-      <section className=" font-inter lg:*:px-32">
+      <section className=" font-inter lg:px-32">
         <div className=" px-4 text-center mt-14 lg:mt-28">
           <h1 className=" text-amber-600 font-bold text-xl "> Past Projects</h1>
 

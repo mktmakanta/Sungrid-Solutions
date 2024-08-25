@@ -6,7 +6,7 @@ export default function GetQuote() {
       <h1 className="text-3xl lg:text-4xl font-bold text-white text-center ">
         Ready to pull the trigger? <br /> Get a free quote today.
       </h1>
-      <div className=" space-x-5">
+      <div className=" space-x-5 lg:text-lg">
         <button className="px-8 py-5 bg-white text-amber-600 font-semibold">
           Get a quote
         </button>

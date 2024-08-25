@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   const date = new Date();
@@ -6,7 +7,7 @@ export default function Footer() {
 
   return (
     <div className=" font-inter pt-8 text-white bg-gray-900 pb-3 ">
-      <div className="  p-4 text-center py-12  bg-blue-900 ">
+      <div className="  p-4 text-center py-12 lg:py-24  bg-blue-900 ">
         <h2 className=" font-thin text-2xl lg:text-4xl">
           For more information please email
         </h2>
@@ -104,22 +105,28 @@ export default function Footer() {
           </h2>
           <ul className="space-y-1">
             <li className="">
-              <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
-              About Us{" "}
+              <NavLink to="/aboutroute">
+                <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
+                About Us{" "}
+              </NavLink>
             </li>
             <li>
-              {" "}
-              <img
-                className="inline mr-2"
-                src="src/icons/arrow.svg"
-                alt=""
-              />{" "}
-              Our Services
+              <NavLink to="/serviceroute">
+                {" "}
+                <img
+                  className="inline mr-2"
+                  src="src/icons/arrow.svg"
+                  alt=""
+                />{" "}
+                Our Services
+              </NavLink>
             </li>
             <li>
-              {" "}
-              <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
-              Our Projects
+              <NavLink to="/projectsroute">
+                {" "}
+                <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
+                Our Projects
+              </NavLink>
             </li>
           </ul>
         </div>
