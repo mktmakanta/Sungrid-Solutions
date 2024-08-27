@@ -3,16 +3,16 @@ import { NavLink } from "react-router-dom";
 function Service() {
   return (
     <>
-      <section className="  font-inter px-4 mt-20 lg:mt-32 lg:px-40">
+      <section className="  font-inter px-4 mt-20 lg:mt-32 md:px-24 lg:px-40">
         <div className=" text-center space-y-3 mb-8">
           <h1 className="font-bold text-amber-600 text-xl">Our Services</h1>
-          <h2 className="text-4xl lg:text-5xl font-bold text-blue-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
             A comprehensive set of our services
           </h2>
         </div>
         <div className="cards space-y-5 lg:space-y-0 lg:flex lg:gap-10  lg:mt-16">
           <div className="card w-11/12 mx-auto shadow-lg border-b-4 border-amber-600 pb-4">
-            <div className="h-64 flex place-content-center">
+            <div className="h-64 md:h-96 lg:h-64 flex place-content-center">
               <img
                 src="src/images/hero-one.png"
                 alt=""
@@ -45,7 +45,7 @@ function Service() {
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
-            <div className="h-64 flex place-content-center">
+            <div className="h-64 md:h-96 lg:h-64 flex place-content-center">
               <img
                 src="src/images/hero-three.png"
                 alt=""
@@ -81,7 +81,7 @@ function Service() {
             </div>
           </div>
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
-            <div className="h-64 ">
+            <div className="h-64 md:h-96 lg:h-64 ">
               <img
                 src="src/images/hero-two.png"
                 alt=""

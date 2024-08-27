@@ -55,11 +55,11 @@ function Projects() {
 
   return (
     <>
-      <section className=" font-inter lg:px-32">
+      <section className=" font-inter md:px-14 lg:px-32">
         <div className=" px-4 text-center mt-14 lg:mt-28">
           <h1 className=" text-amber-600 font-bold text-xl "> Past Projects</h1>
 
-          <h4 className=" text-blue-900 text-3xl font-bold my-4 lg:text-5xl">
+          <h4 className=" text-blue-900 text-3xl md:text-4xl font-bold my-4 lg:text-5xl">
             Our Recently Completed Projects.
           </h4>
           <p className=" text-neutral-400">
@@ -75,7 +75,7 @@ function Projects() {
             <div className="flex  space-x-4 ">
               <div
                 key={projectsData[screenImage].id}
-                className="h-80 lg:h-3/6 w-full  relative flex-none"
+                className="h-80 md:h-96 lg:h-3/6 w-full  relative flex-none"
               >
                 <img
                   src={`src/images/${projectsData[screenImage].image}.png`}

@@ -23,7 +23,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className=" p-4 text-neutral-400 lg:mt-20 lg:px-24 lg:grid grid-cols-2">
+      <div className=" p-4 text-neutral-400 lg:mt-20 md:px-20 lg:px-24 lg:grid grid-cols-2">
         <div className="  mt-10 lg:mt-0 ">
           <h2 className="font-bold text-xl text-white mb-3">Contacts</h2>
           <div className="flex items-center my-3">
@@ -138,7 +138,7 @@ export default function Footer() {
           />
         </div>
       </div>
-      <div className=" lg:text-center lg:px-24 items-end border-t-2  border-amber-600/20 text-neutral-400 lg:flex justify-between lg:mb-10 lg:pt-8">
+      <div className=" lg:text-center md:px-20 lg:px-24 items-end border-t-2  border-amber-600/20 text-neutral-400 lg:flex justify-between lg:mb-10 lg:pt-8">
         <div className="lg:flex flex-col items-start px-4 lg:px-0 ">
           {" "}
           <div className="  pt-7">

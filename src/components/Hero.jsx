@@ -49,14 +49,14 @@ function Hero() {
       className="wrapper w-full overflow-x-scroll relative"
       ref={scrollContain}
     >
-      <div className="cards flex ">
+      <div className="cards flex">
         {heroData.map((hero, index) => (
           <div
             key={index}
             style={{
               backgroundImage: `url(src/images/${hero.picture}.png)`,
             }}
-            className={`card relative h-96 lg:h-screen w-full flex-shrink-0 bg-center bg-cover ${
+            className={`card relative h-96   lg:h-screen w-full flex-shrink-0 bg-center bg-cover ${
               currentImage === index ? "block" : "hidden"
             }`}
           >

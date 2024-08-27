@@ -39,7 +39,7 @@ const testimonialData = [
 function Testimonial() {
   return (
     <>
-      <section className="p-4 bg-amber-100/70 font-inter lg:px-32">
+      <section className="p-4 bg-amber-100/70 font-inter md:px-20 lg:px-32">
         <h1 className="text-center text-amber-600 text-xl font-bold mt-6">
           Testimonials
         </h1>

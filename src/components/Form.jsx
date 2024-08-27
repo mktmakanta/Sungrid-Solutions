@@ -36,7 +36,7 @@ const Form = () => {
 
   return (
     <>
-      <section className="p-4 py-10 font-inter lg:px-40">
+      <section className="p-4 py-10 font-inter md:px-14 lg:px-40">
         <div className="lg:text-center lg:my-10 lg:px-20 ">
           <h1 className="font-bold text-xl text-amber-600 ">
             Want to know more?

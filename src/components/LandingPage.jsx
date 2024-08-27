@@ -15,7 +15,7 @@ import HomeWhatsapp from "./Home-whatsapp.jsx";
 function LandingPage() {
   return (
     <>
-      <div id="#Home" className=" ">
+      <div  className=" ">
         <Nav />
         <Hero />
         <Stats />
