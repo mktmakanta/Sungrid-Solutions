@@ -36,7 +36,7 @@ const Form = () => {
 
   return (
     <>
-      <section className="p-4 py-10 font-inter md:px-14 lg:px-40">
+      <section id="contact" className="p-4 py-10 font-inter md:px-14 lg:px-40">
         <div className="lg:text-center lg:my-10 lg:px-20 ">
           <h1 className="font-bold text-xl text-amber-600 ">
             Want to know more?
@@ -55,7 +55,7 @@ const Form = () => {
 
         <div className="lg:grid lg:grid-cols-2 bg-neutral-100 place-content-center lg:p-10 lg:pb-0  ">
           <div className="hidden lg:block">
-            <img src="src/images/hero-two.png" alt="" />
+            <img src="/images/hero-two.png" alt="" />
           </div>
           <form className="  p-4 rounded-md lg:ml-10  " onSubmit={handleSubmit}>
             <div className=" flex flex-col">

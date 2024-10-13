@@ -14,7 +14,7 @@ function Service() {
           <div className="card w-11/12 mx-auto shadow-lg border-b-4 border-amber-600 pb-4">
             <div className="h-64 md:h-96 lg:h-64 flex place-content-center">
               <img
-                src="src/images/hero-one.png"
+                src="/images/hero-one.png"
                 alt=""
                 className="h-full w-full"
               />
@@ -38,7 +38,7 @@ function Service() {
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
-                  src="src/icons/link.svg"
+                  src="/icons/link.svg"
                   alt=""
                 />
               </NavLink>
@@ -47,18 +47,14 @@ function Service() {
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
             <div className="h-64 md:h-96 lg:h-64 flex place-content-center">
               <img
-                src="src/images/hero-three.png"
+                src="/images/hero-three.png"
                 alt=""
                 className="h-full w-full"
               />
             </div>
             <div className=" relative p-8 ">
               <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3  ">
-                <img
-                  className="h-16 w-16"
-                  src="src/icons/electrical.svg"
-                  alt=""
-                />
+                <img className="h-16 w-16" src="/icons/electrical.svg" alt="" />
               </div>
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 Electrical Installation
@@ -74,7 +70,7 @@ function Service() {
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
-                  src="src/icons/link.svg"
+                  src="/icons/link.svg"
                   alt=""
                 />
               </NavLink>
@@ -83,14 +79,14 @@ function Service() {
           <div className="card w-11/12 mx-auto shadow-lg  border-b-4 border-amber-600 pb-4">
             <div className="h-64 md:h-96 lg:h-64 ">
               <img
-                src="src/images/hero-two.png"
+                src="/images/hero-two.png"
                 alt=""
                 className="h-full w-full"
               />
             </div>
             <div className=" relative p-8 ">
               <div className="h-20 w-20 bg-amber-600 absolute -top-12 p-3 flex place-content-center">
-                <img className="h-16 w-16" src="src/icons/general.svg" alt="" />
+                <img className="h-16 w-16" src="/icons/general.svg" alt="" />
               </div>
               <h2 className="text-2xl font-bold text-blue-900 mt-6 mb-3">
                 General Works
@@ -107,7 +103,7 @@ function Service() {
                 View service{" "}
                 <img
                   className="h-3 w-3 ml-2 inline"
-                  src="src/icons/link.svg"
+                  src="/icons/link.svg"
                   alt=""
                 />
               </NavLink>

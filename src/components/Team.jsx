@@ -1,7 +1,7 @@
 const TeamData = [
   {
-    name: "Muhamadd Iash",
-    position: "Frontend Advocate",
+    name: "Philip Liam",
+    position: "C.E.O",
     company:
       "lorem the countles readers have been helped by the famous that found parables",
     image: "hero-one",
@@ -10,28 +10,28 @@ const TeamData = [
     whatsapp: "link",
   },
   {
-    name: "Muhamadd Iash",
+    name: "Aliyu Muhammad",
     position: "Frontend Advocate",
     company:
       "lorem the countles readers have been helped by the famous that found parables",
-    image: "hero-one",
+    image: "hero-two",
     facebook: "link",
     twitter: "link",
     whatsapp: "link",
   },
   {
-    name: "Muhamadd Iash",
-    position: "Frontend Advocate",
+    name: "Micheal Solomon",
+    position: "Sottware Engineer",
     company:
-      "lorem the countles readers have been helped by the famous that found parables",
-    image: "hero-one",
+      "lorem the countles readers have been helped by lorem the famous that found parables",
+    image: "hero-three",
     facebook: "link",
     twitter: "link",
     whatsapp: "link",
   },
   {
-    name: "Muhamadd Iash",
-    position: "Frontend Advocate",
+    name: "Juliet OWan",
+    position: "Technical Supervisor",
     company:
       "lorem the countles readers have been helped by the famous that found parables",
     image: "hero-one",
@@ -73,7 +73,7 @@ export default function Team() {
             className="member w-80 mx-auto mb-4 rounded-lg bg-white"
           >
             <div
-              className="h-72 w-80  relative "
+              className="h-72 w-80  relative duration-500"
               onMouseEnter={() => {
                 onEnter(index);
               }}
@@ -92,7 +92,7 @@ export default function Team() {
                       <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
                     </svg>
                     <div className="h-10 w-10 p-2 rounded-full bg-white/20 hover:bg-white/40 fill-white flex place-content-center">
-                      <img src="src/icons/instagram.svg" alt="" />
+                      <img src="/icons/instagram.svg" alt="" />
                     </div>
                     <svg
                       className="h-10 w-10 p-2 rounded-full bg-white/20 hover:bg-white/40 fill-white"
@@ -113,7 +113,7 @@ export default function Team() {
               ) : (
                 <img
                   className="w-full h-full rounded-t-lg"
-                  src={`src/images/${team.image}.png`}
+                  src={`/images/${team.image}.png`}
                   alt=""
                 />
               )}

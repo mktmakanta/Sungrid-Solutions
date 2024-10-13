@@ -42,11 +42,7 @@ export default function Footer() {
           <div className=" ">
             <div className="flex items-start my-3">
               <div className="w-5 h-5  mr-3 ">
-                <img
-                  className="inline mr-2"
-                  src="src/icons/address.svg"
-                  alt=""
-                />
+                <img className="inline mr-2" src="/icons/address.svg" alt="" />
               </div>
 
               <div className="w-10/12">
@@ -58,11 +54,7 @@ export default function Footer() {
             <div className="flex items-start my-3 text-neutral-400">
               <div className="w-5 h-5  mr-3 ">
                 {" "}
-                <img
-                  className="inline mr-2"
-                  src="src/icons/address.svg"
-                  alt=""
-                />
+                <img className="inline mr-2" src="/icons/address.svg" alt="" />
               </div>
 
               <div className="w-10/12">
@@ -82,7 +74,7 @@ export default function Footer() {
             <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
           </svg>
           <div className="h-10 w-10 p-2 rounded-full bg-white/20 fill-white flex place-content-center">
-            <img src="src/icons/instagram.svg" alt="" />
+            <img src="/icons/instagram.svg" alt="" />
           </div>
           <svg
             className="h-10 w-10 p-2 rounded-full bg-white/20 fill-white"
@@ -106,7 +98,7 @@ export default function Footer() {
           <ul className="space-y-1">
             <li className="">
               <NavLink to="/aboutroute">
-                <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
+                <img className="inline mr-2" src="/icons/arrow.svg" alt="" />
                 About Us{" "}
               </NavLink>
             </li>
@@ -115,7 +107,7 @@ export default function Footer() {
                 {" "}
                 <img
                   className="inline mr-2"
-                  src="src/icons/arrow.svg"
+                  src="/icons/arrow.svg"
                   alt=""
                 />{" "}
                 Our Services
@@ -124,7 +116,7 @@ export default function Footer() {
             <li>
               <NavLink to="/projectsroute">
                 {" "}
-                <img className="inline mr-2" src="src/icons/arrow.svg" alt="" />
+                <img className="inline mr-2" src="/icons/arrow.svg" alt="" />
                 Our Projects
               </NavLink>
             </li>
@@ -133,7 +125,7 @@ export default function Footer() {
         <div className="brand lg:mt-8">
           <img
             className="h-28 w-40 lg:h-36 lg:w-48 my-"
-            src="src/icons/footer-logo.svg"
+            src="/icons/footer-logo.svg"
             alt=""
           />
         </div>

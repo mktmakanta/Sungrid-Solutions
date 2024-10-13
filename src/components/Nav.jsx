@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +10,18 @@ const Nav = () => {
 
   return (
     <>
-      <div className="hidden lg:block h-10 w-screen bg-green-600"></div>
+      <div className="hidden  h-10 w-screen lg:flex gap-4 justify-end items-center bg-green-600 text-white px-10">
+        <h2>
+          Email: <span>mktmakantamkt@gmail.com</span>
+        </h2>
+        <h2>
+          Telephone: <span>+234 806 248 2089</span>
+        </h2>
+      </div>
       <div className=" px-5 py-2 lg:px-32 md:flex justify-between items-center w-full sticky top-0 z-20 bg-white  ">
         <div className=" flex justify-between items-center">
           <div className=" w-32 ">
-            <img src="src/icons/logo.svg" alt="" />
+            <img src="/icons/logo.svg" alt="" />
           </div>
 
           {/* mobile  */}
@@ -105,23 +113,29 @@ const Nav = () => {
         <nav className="  ">
           <ul className="hidden md:flex items-center text-black space-x-14 font-semibold">
             <li>
-              <a
-                href="#home"
+              <NavLink
+                to="/"
                 className="block text-amber-600 hover:text-amber-600"
               >
                 Home
-              </a>
+              </NavLink>
             </li>
 
             <li>
-              <a href="#services" className="block  hover:text-amber-600">
+              <NavLink
+                to="/ServiceRoute"
+                className="block  hover:text-amber-600"
+              >
                 Services
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#works" className="block  hover:text-amber-600">
+              <NavLink
+                to="/ProjectsRoute"
+                className="block  hover:text-amber-600"
+              >
                 Works
-              </a>
+              </NavLink>
             </li>
 
             <li>

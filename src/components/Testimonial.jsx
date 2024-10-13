@@ -7,7 +7,7 @@ const testimonialData = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elincidunt nobis eveniet voluptatibtas, omnis sint? Loreipsum dolor sit amet consectetur. Lorem ipsum dolor sit.",
   },
   {
-    image: "hero-two",
+    image: "hero-one",
     work: "Solar Electrification",
     place: "Mr. Wang Park",
     description:
@@ -21,7 +21,7 @@ const testimonialData = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elincidunt nobis esit amet consectetur. Lorem ipsum dolor sit.",
   },
   {
-    image: "hero-two",
+    image: "hero-three",
     work: "Repairs and maintainance",
     place: "Mr. Ben Company",
     description:
@@ -56,7 +56,7 @@ function Testimonial() {
                 <div className="h-14 w-14 rounded-lg bg-amber-300 mr-4">
                   <img
                     className="w-full h-full rounded-lg"
-                    src={`src/images/${testimonial.image}.png`}
+                    src={`/images/${testimonial.image}.png`}
                     alt=""
                   />
                 </div>

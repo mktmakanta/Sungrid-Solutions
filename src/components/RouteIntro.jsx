@@ -12,7 +12,7 @@ export default function RouteIntro({ value }) {
         <img className="mr-2" src="src/icons/go-home.svg" alt="" />
         Home
       </NavLink>
-      <img className="h-full w-full" src="src/images/hero-two.png" alt="" />
+      <img className="h-full w-full" src="/images/hero-two.png" alt="" />
       <div className=" font-medium absolute bottom-1/3 left-5">
         Home / Pages / {value}
       </div>

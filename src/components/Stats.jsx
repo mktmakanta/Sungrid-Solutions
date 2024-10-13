@@ -34,7 +34,7 @@ export default function Stats() {
         <div key={index} className=" flex bg-white p-4 py-8">
           <div className="image h-12 w-12  p-2 bg-sky-500 rounded-sm mr-4">
             <img
-              src={`src/icons/${stat.icon}.svg`}
+              src={`/icons/${stat.icon}.svg`}
               className="w-full h-full fill-white "
               alt=""
             />

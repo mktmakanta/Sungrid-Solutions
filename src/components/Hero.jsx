@@ -54,7 +54,7 @@ function Hero() {
           <div
             key={index}
             style={{
-              backgroundImage: `url(src/images/${hero.picture}.png)`,
+              backgroundImage: `url(/images/${hero.picture}.png)`,
             }}
             className={`card relative h-96   lg:h-screen w-full flex-shrink-0 bg-center bg-cover ${
               currentImage === index ? "block" : "hidden"
@@ -71,41 +71,6 @@ function Hero() {
           </div>
         ))}
       </div>
-      {/* <div className="  absolute bottom-4 flex space-x-3 right-6">
-        <div
-          className={`h-7 w-7 rounded-full shadow-xl shadow-white  border-2 border-white ${
-            currentImage === 0 ? "scale-150" : ""
-          }`}
-        >
-          <img
-            className="h-full w-full rounded-full "
-            src={`src/images/${heroData[0].picture}.png`}
-            alt=""
-          />
-        </div>
-        <div
-          className={`h-7 w-7 rounded-full  shadow-white border-2 border-white ${
-            currentImage === 1 ? "scale-150" : ""
-          }`}
-        >
-          <img
-            className="h-full w-full rounded-full shadow-xl"
-            src={`src/images/${heroData[1].picture}.png`}
-            alt=""
-          />
-        </div>{" "}
-        <div
-          className={`h-7 w-7 rounded-full shadow-xl shadow-white border-2 border-white ${
-            currentImage === 2 ? "scale-150" : ""
-          }`}
-        >
-          <img
-            className="h-full w-full rounded-full"
-            src={`src/images/${heroData[2].picture}.png`}
-            alt=""
-          />
-        </div>
-      </div> */}
     </div>
   );
 }
